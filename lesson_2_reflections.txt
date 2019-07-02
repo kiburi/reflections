@@ -5,4 +5,8 @@ A git repository is created in order to start tracking files.
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Staging area is an intermediate area that allows you to add inter-related files and commit them using a single commit to git repository. Helps keep commits small with one commit per
 logical change.
-Working directory is a repository that is created using git init. 
+Working directory is a repository that is created using git init.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Once you make changes to your files, you add them to the staging area so that you can commit similar files using a single commit rather
+than separate commits which makes it more efficient to read the changes made to related files. 
