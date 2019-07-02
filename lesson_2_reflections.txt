@@ -9,4 +9,8 @@ Working directory is a repository that is created using git init.
 
 How can you use the staging area to make sure you have one commit per logical change?
 Once you make changes to your files, you add them to the staging area so that you can commit similar files using a single commit rather
-than separate commits which makes it more efficient to read the changes made to related files. 
+than separate commits which reduces the number of commits per changes.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+You can create a branch when making changes which you're not ready to add to the master. This helps keep the master clean.
+In an environment where more than one user is working on a project. Users can create branches and merge them later when done.
