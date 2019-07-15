@@ -18,3 +18,7 @@ In an environment where more than one user is working on a project. Users can cr
 How do the diagrams help you visualize the branch structure?
 Diagrams help undertand the commits done performed on each branch and also check relationship between commits and branches.
 Branches help check if there are any unreachable commits.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+When merging the commits of the branch that is being merged can be accessed from one branch. It's represented in a diagram so as to easily
+identify the parent and also determine which branches are unreachable.
