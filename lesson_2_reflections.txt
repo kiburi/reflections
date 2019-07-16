@@ -22,3 +22,8 @@ Branches help check if there are any unreachable commits.
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 When merging the commits of the branch that is being merged can be accessed from one branch. It's represented in a diagram so as to easily
 identify the parent and also determine which branches are unreachable.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+Pros of manual: User has control to  include only the changes they want on a branch.
+cons of manual: it may take time to make changes
+
