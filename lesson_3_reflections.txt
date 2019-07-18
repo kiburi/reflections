@@ -12,3 +12,7 @@ Clones: Allows you to make a copy of a repository on your local machine to anoth
 from GitHub (remote) to your local machine.
 Branches: Copies commits from a working branch or master branch to a new branch so that a user can make changes confidently without affecting 
 the master branch. User can then merge the new branch to the master to incorporate the changes.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+1. You can work on the changes locally especially when you don't have access to the remote maybe because of internet constraints.
+2. Reduced conflicts
